@@ -22,7 +22,7 @@ export const getElmFormatVersion = () => {
 import execa from 'execa';
 
 export const formatTextWithElmFormat = (text: string): string => {
-  return execa.command("elm-format --stdin --elm-version=0.19", {
+  return execa("elm-format", ["--stdin", "--elm-version=0.19"], {
     input: text,
     preferLocal: true,
     localDir: __dirname,
