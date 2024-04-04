@@ -1,4 +1,4 @@
-import {exec} from "execa";
+import execa from "execa";
 
 let cachedElmFormatVersion: string;
 
