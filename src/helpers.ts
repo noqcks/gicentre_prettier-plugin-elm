@@ -19,6 +19,8 @@ export const getElmFormatVersion = () => {
   return cachedElmFormatVersion;
 };
 
+import execa from 'execa';
+
 export const formatTextWithElmFormat = (text: string): string => {
   return execa.sync("elm-format", ["--stdin", "--elm-version=0.19"], {
     input: text,
