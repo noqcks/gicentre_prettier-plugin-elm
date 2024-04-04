@@ -4957,7 +4957,7 @@ __metadata:
     prettier-v1: "npm:prettier@1.19.1"
     prettier-v2: "npm:prettier@2.8.8"
     rimraf: "npm:5.0.0"
-    serialize-error: "npm:^8.1.0"
+    serialize-error: "npm:^11.0.3"
     sleep-promise: "npm:9.1.0"
     temp-dir: "npm:^2.0.0"
     typescript: "npm:5.0.4"
@@ -5347,12 +5347,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"serialize-error@npm:^8.1.0":
-  version: 8.1.0
-  resolution: "serialize-error@npm:8.1.0"
+"serialize-error@npm:^11.0.3":
+  version: 11.0.3
+  resolution: "serialize-error@npm:11.0.3"
   dependencies:
-    type-fest: "npm:^0.20.2"
-  checksum: c9486420b2bbe88fc9c07236f482b4a2c1130906ad148a25add5f242ebc837f02e6a2306de4516c34285bad00d22880c87253f0e6d7c7ebf5edca9e1fc96261f
+    type-fest: "npm:^2.12.2"
+  checksum: 6f76c2ee5643f5965140a6084325ee2ee90a00c22264f8cf90b284ed43d46239836edad36b28ae06e809db1a1373788ed90822a72a72ef40f72bbaa24d844027
   languageName: node
   linkType: hard
 
@@ -5936,6 +5936,13 @@ __metadata:
   version: 0.8.1
   resolution: "type-fest@npm:0.8.1"
   checksum: 08def3ad30577eb6aa2d1ce550b4a051767ff665725db52a3d5c2721405278f09c0cf95eb25684d0a956d9b9971dfd106a77ebcb60f0ee852e3812e645addb36
+  languageName: node
+  linkType: hard
+
+"type-fest@npm:^2.12.2":
+  version: 2.19.0
+  resolution: "type-fest@npm:2.19.0"
+  checksum: d63c7c5fd7583cc6d35ccd23e96686eeb1e6f387c83a858625734ea2cf974c6be38bcbc43663da5e10469a1b4119089def1e8def03bf2aee540f0ad4fcd25902
   languageName: node
   linkType: hard
 
