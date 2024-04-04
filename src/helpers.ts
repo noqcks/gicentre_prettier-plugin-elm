@@ -7,7 +7,7 @@ export const getElmFormatVersion = () => {
     // a cleaner way of getting elm-format version
     // will be possible when this issue is closed:
     // https://github.com/avh4/elm-format/issues/425
-    const help = exec.sync("elm-format", ["--help"], {
+    const help = execa.sync("elm-format", ["--help"], {
       preferLocal: true,
       localDir: __dirname,
       timeout: 5000,
